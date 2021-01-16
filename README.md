@@ -41,3 +41,16 @@ This is a classification supervised machine learning project
 | Arrival Delay in Minutes: Minutes delayed when Arrival |
 | Satisfaction: Airline satisfaction level(Satisfaction, neutral or dissatisfaction |
 
+1. __Weekly Demand data (train.csv)__: Contains the historical demand data for all centers, test.csv contains all the following features except the target variable.
+
+| Variable | Definition |
+| -------- | ---------- |
+| id | Unique ID |
+| week | Week No |
+| center_id | Unique ID for fulfillment center |
+| meal_id | Unique ID for Meal |
+| checkout_price | Final price including discount, taxes & delivery charges | 
+| base_price | Base price of the meal |
+| emailer_for_promotion | Emailer sent for promotion of meal |
+| homepage_featured	Meal | featured at homepage |
+| num_orders | (Target) Orders Count |
