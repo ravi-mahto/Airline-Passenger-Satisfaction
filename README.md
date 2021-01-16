@@ -5,7 +5,6 @@
 * Objective
 * Data cleaning
 * Exploratory Data Analysis
-* Data Preprocessing 
 * Model Selection
 * Model Evaluation
 * Conculusion
@@ -17,6 +16,7 @@ The dataset for this project is attained from Kaggle which contains the data sou
 
 | Variable | Definition |
 | -------- | ---------- |
+| id | Unique ID |
 | Gender | Gender of the passengers (Female, Male) |
 | Customer Type | The customer type (Loyal customer, disloyal customer) |
 | Age | The actual age of the passengers |
@@ -43,3 +43,9 @@ The dataset for this project is attained from Kaggle which contains the data sou
 
 ## Objective
 The objective or goal of this project is to guide an airlines company to determine the important factors that influences the customer or passenger satisfaction. Customer satisfaction plays a major role in affecting the business of a company therefore analysing and improving the factors that are closely related to customer satisfaction is important for the growth and reputation of a company.
+
+## Model Selection
+For making the model in this data set, I will trying use several classification models namely Logistic Regression, Decision Tree Classifier, Random Forest Classifier and Gradient Boosting Classifier.
+
+## Model Evaluation
+Finally, I retrain the chosen model on 70% of the data set (Training Sets), and then evaluate the predictions on 30% of the remaining data set (Test Set). The final evaluation of model performance gives a AUC of 0.993, Recall of 91.2% and Precision of 99.1%.
