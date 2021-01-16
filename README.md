@@ -16,7 +16,6 @@ This is a classification supervised machine learning project
 
 | Variable | Definition |
 | -------- | ---------- |
-
 | Gender: Gender of the passengers (Female, Male) |
 | Customer Type: The customer type (Loyal customer, disloyal customer) |
 | Age: The actual age of the passengers |
