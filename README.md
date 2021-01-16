@@ -1,7 +1,7 @@
 # Airline-Passenger-Satisfaction
 ## Table of Content
 * Overview
-* About Dataset
+* Data Dictionary
 * Objective
 * Data cleaning
 * Exploratory Data Analysis
@@ -11,7 +11,8 @@
 * Conculusion
 
 ## Overview
-This is a classification supervised machine learning project
+The dataset for this project is attained from Kaggle which contains the data sourced from a survey conducted by airlines on the satisfaction level of passengers/customers based on various factors. The dataset consists of 25 columns. The dataset consists of a column or feature named ‘satisfaction’ which describes the overall satisfaction level of the customer. It has two values, ‘neutral or dissatisfied’ and ‘satisfied’. This satisfaction feature is considered as the label feature since it conveys the overall experience of the customer based on the ratings given for other features. The dataset consists of 103904 and 25976 records in train and test respectively.
+
 ## Data Dictionary
 
 | Variable | Definition |
@@ -23,7 +24,7 @@ This is a classification supervised machine learning project
 | Class | Travel class in the plane of the passengers (Business, Eco, Eco Plus) |
 | Flight distance | The flight distance of this journey |
 | Inflight wifi service | Satisfaction level of the inflight wifi service (0:Not Applicable;1-5) |
-| Departure/Arrival time convenient: Satisfaction level of Departure/Arrival time convenient |
+| Departure/Arrival time convenient | Satisfaction level of Departure/Arrival time convenient |
 | Ease of Online booking | Satisfaction level of online booking |
 | Gate location | Satisfaction level of Gate location |
 | Food and drink | Satisfaction level of Food and drink |
@@ -40,3 +41,5 @@ This is a classification supervised machine learning project
 | Arrival Delay in Minutes | Minutes delayed when Arrival |
 | Satisfaction | Airline satisfaction level(Satisfaction, neutral or dissatisfaction |
 
+## Objective
+The objective or goal of this project is to guide an airlines company to determine the important factors that influences the customer or passenger satisfaction. Customer satisfaction plays a major role in affecting the business of a company therefore analysing and improving the factors that are closely related to customer satisfaction is important for the growth and reputation of a company.
