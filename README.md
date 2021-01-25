@@ -48,4 +48,4 @@ The objective or goal of this project is to guide an airlines company to determi
 For making the model in this data set, I will trying use several classification models namely Logistic Regression, Decision Tree Classifier, Random Forest Classifier and Gradient Boosting Classifier.
 
 ## Model Evaluation
-Finally, I retrain the chosen model on 70% of the data set (Training Sets), and then evaluate the predictions on 30% of the remaining data set (Test Set). The final evaluation of model performance gives a AUC of 0.993, Recall of 91.2% and Precision of 99.1%.
+Finally, I retrain the chosen model on 70% of the data set (Training Sets), and then evaluate the predictions on 30% of the remaining data set (Test Set). The final evaluation of model performance gives a AUC of 0.959 and F1 score: 0.955.
