@@ -1,4 +1,5 @@
 # Airline-Passenger-Satisfaction
+
 ## Table of Content
 * Overview
 * Data Dictionary
@@ -45,7 +46,7 @@ The dataset for this project is attained from Kaggle which contains the data sou
 The objective or goal of this project is to guide an airlines company to determine the important factors that influences the customer or passenger satisfaction. Customer satisfaction plays a major role in affecting the business of a company therefore analysing and improving the factors that are closely related to customer satisfaction is important for the growth and reputation of a company.
 
 ## Model Selection
-For making the model in this data set, I will trying use several classification models namely Logistic Regression, Decision Tree Classifier, Random Forest Classifier and Gradient Boosting Classifier.
+For making the model in this data set, I will trying use several classification models namely Logistic Regression, Decision Tree Classifier, Random Forest Classifier and k nearest neighbor classifier.
 
 ## Model Evaluation
 Finally, I retrain the chosen model on 70% of the data set (Training Sets), and then evaluate the predictions on 30% of the remaining data set (Test Set). The final evaluation of model performance gives a AUC of 0.959 and F1 score: 0.955.
